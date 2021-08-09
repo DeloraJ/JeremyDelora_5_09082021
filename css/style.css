@@ -1,0 +1,8 @@
+.fas {
+  font-size: 2.5em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#E68A07), to(#8F5BFE));
+  background: linear-gradient(to bottom right, #E68A07, #8F5BFE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
