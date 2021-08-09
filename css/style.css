@@ -1,8 +1,126 @@
+@font-face {
+  font-family: 'Atkinson';
+  src: url("../fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+}
+
+#bloc_page {
+  font-family: 'Atkinson';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#Entete {
+  background-color: #F3E9F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Logosite {
+  width: 87%;
+}
+
+#Logosite .logo {
+  width: 40%;
+}
+
+#Panier {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+}
+
+#Panier a {
+  width: 100%;
+}
+
 .fas {
-  font-size: 2.5em;
+  font-size: 3.1em;
   background: -webkit-gradient(linear, left top, right bottom, from(#E68A07), to(#8F5BFE));
   background: linear-gradient(to bottom right, #E68A07, #8F5BFE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#Categorie {
+  border-bottom: solid;
+  border-color: #F3E9F1;
+  padding-bottom: 3%;
+}
+
+#Categorie h2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 2.5em;
+  text-align: center;
+  color: #8F5BFE;
+}
+
+#ListeCategorie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#ListeCategorie a {
+  font-size: 1.3em;
+}
+
+.CategorieProduit:hover a {
+  color: #8F5BFE;
+}
+
+#Meuble h2 {
+  padding-top: 1%;
+}
+
+#listeproduits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#listeproduits .produit {
+  width: 35%;
+}
+
+.produit img {
+  width: 70%;
+}
+
+footer {
+  background-color: #F3E9F1;
+}
+
+#liens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#liens a:hover {
+  color: #8F5BFE;
+}
+
+#liens p {
+  font-size: 1.05em;
 }
 /*# sourceMappingURL=style.css.map */
