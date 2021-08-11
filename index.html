@@ -12,7 +12,6 @@
     
 
     <body>
-        <div class="spinner"></div>
         <div id="bloc_page">
             <header>
                 <div id="Entete">
@@ -29,16 +28,16 @@
 
             <section>
                 <div id="Categorie">
-                    <h2>Catégorie du produit</h2>
+                    <h1>Catégorie du produit</h1>
                     <div id="ListeCategorie">
                         <div class="CategorieProduit">
-                            <a href="#Meuble"><p>Meubles en chêne</p></a>
+                            <a href="#Meuble" title="Meubles en chêne"><p>Meubles en chêne</p></a>
                         </div>
                         <div class="CategorieProduit">
-                            <a href="#"><p>Ours en peluche faits à la main</p></a>
+                            <a href="#" title="Ours en peluche faits à la main"><p>Ours en peluche faits à la main</p></a>
                         </div>
                         <div class="CategorieProduit">
-                            <a href="#"><p>Caméras vintage</p></a>
+                            <a href="#" title="Caméras vintage"><p>Caméras vintage</p></a>
                         </div>
                     </div>
                 </div>
@@ -48,32 +47,71 @@
                         <div class="produit">
                             <a href="produit.html">
                                 <img src="images/oak_1.jpg" alt="Tablepiedscroix" class="Tablecroix">
-                                <p>Table avec les pieds en croix</p>
+                                <div class="Legende">
+                                    <div id="descriptif">
+                                        <h3>Table avec les pieds en croix</h3>
+                                    </div>
+                                    <div id="prix">
+                                        <p>120€</p>
+                                    </div>
+                                </div>
+                                <input class="AjoutPanier" type="button" value="Ajouter au panier" title="Ajouter au panier">
                             </a>
                         </div>
                         <div class="produit">
                             <a href="produit.html">
                                 <img src="images/oak_2.jpg" alt="Tablerectangulaire" class="Tablerectangulaire">
-                                <p>Table rectangulaire</p>
+                                <div class="Legende">
+                                    <div id="descriptif">
+                                        <h3>Table rectangulaire</h3>
+                                    </div>
+                                    <div id="prix">
+                                        <p>180€</p>
+                                    </div>
+                                </div>
+                                <input class="AjoutPanier" type="button" value="Ajouter au panier" title="Ajouter au panier">
                             </a>
                         </div>
                         <div class="produit">
                             <a href="produit.html">
                                 <img src="images/oak_3.jpg" alt="Tableronde" class="Tableronde">
-                                <p>Table ronde extensible</p>
+                                <div class="Legende">
+                                    <div id="descriptif">
+                                        <h3>Table ronde extensible</h3>
+                                    </div>
+                                    <div id="prix">
+                                        <p>210€</p>
+                                    </div>
+                                </div>
+                                <input class="AjoutPanier" type="button" value="Ajouter au panier" title="Ajouter au panier">
                             </a>
                         </div>
                         <div class="produit">
                             <a href="produit.html">
                                 <img src="images/oak_4.jpg" alt="Planche" class="Planche">
-                                <p>Planche brute</p>
-                            </a>
+                                <div class="Legende">
+                                    <div id="descriptif">
+                                        <h3>Planche brute</h3>
+                                    </div>
+                                    <div id="prix">
+                                        <p>80€</p>
+                                    </div>
+                                </div>
+                                <input class="AjoutPanier" type="button" value="Ajouter au panier" title="Ajouter au panier">                              
                             </a>
                         </div>
                         <div class="produit">
                             <a href="produit.html">
                                 <img src="images/oak_5.jpg" alt="Fauteuil" class="Fauteuil">
-                                <p>Fauteuil</p>
+                                <div class="Legende">
+                                    <div id="descriptif">
+                                        <h3>Fauteuil</h3>
+                                    </div>
+                                    <div id="prix">
+                                        <p>110€</p>
+                                    </div>
+                                </div>
+                                <input class="AjoutPanier" type="button" value="Ajouter au panier" title="Ajouter au panier">                               
                             </a>
                         </div>
                     </div>
@@ -97,9 +135,6 @@
                 </div>
             </footer>
         </div>
-    
-    
-    
     
     </body>
 
