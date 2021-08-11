@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Atkinson';
+  src: url("../fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+}
+
+#bloc_page, input, h1, h2, h3 {
+  font-family: 'Atkinson';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#Entete {
+  background-color: #F3E9F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Logosite {
+  width: 87%;
+}
+
+#Logosite .logo {
+  width: 40%;
+}
+
+#PersonnaliserProduit h2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 2.5em;
+  text-align: center;
+  color: #8F5BFE;
+}
+
+#ValidationAnnulation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ValidationAnnulation input {
+  background-color: white;
+  color: #8F5BFE;
+  border-style: solid;
+  border-color: #8F5BFE;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.6);
+          box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.6);
+}
+
+#ValidationAnnulation input:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.7);
+          box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.7);
+}
+
+#ValidationAnnulation .Valider {
+  margin-right: 5%;
+}
+
+#ValidationAnnulation .Annuler {
+  margin-left: 5%;
+}
+
+footer {
+  background-color: #F3E9F1;
+  margin-top: 2%;
+}
+
+#liens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#liens a:hover {
+  color: #8F5BFE;
+}
+
+#liens p {
+  font-size: 1.1em;
+}
+/*# sourceMappingURL=style.css.map */
