@@ -3,7 +3,7 @@
   src: url("../fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
 }
 
-#bloc_page {
+#bloc_page, input, h1, h2, h3 {
   font-family: 'Atkinson';
 }
 
@@ -56,7 +56,7 @@ a {
   padding-bottom: 3%;
 }
 
-#Categorie h2 {
+#Categorie h1 {
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 2.5em;
@@ -76,11 +76,25 @@ a {
   font-size: 1.3em;
 }
 
+.CategorieProduit {
+  border-style: solid;
+  border-color: #F3E9F1;
+  background-color: #F3E9F1;
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.CategorieProduit:hover {
+  border-color: #8F5BFE;
+}
+
 .CategorieProduit:hover a {
   color: #8F5BFE;
 }
 
 #Meuble h2 {
+  font-size: 1.7em;
   padding-top: 1%;
 }
 
@@ -94,16 +108,78 @@ a {
       flex-wrap: wrap;
 }
 
-#listeproduits .produit {
+.Legende {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Legende p {
+  padding-top: 10%;
+  padding-right: 5%;
+  font-size: 1.1em;
+}
+
+.produit {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #F3E9F1;
+  border-color: #F3E9F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 35%;
+  padding: 3px;
+  -webkit-box-shadow: 0 0 6px 3px #F2F2F2;
+          box-shadow: 0 0 6px 3px #F2F2F2;
+  margin: 10px 0 15px 0;
 }
 
 .produit img {
-  width: 70%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.produit h3 {
+  font-size: 1.3em;
+  padding-left: 6%;
+  width: 100%;
+}
+
+.produit input {
+  margin-left: 70%;
+  margin-bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: white;
+  color: #8F5BFE;
+  border-style: solid;
+  border-color: #8F5BFE;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.6);
+          box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.6);
+}
+
+.produit input:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.7);
+          box-shadow: 0px 0px 10px 0px rgba(30, 30, 30, 0.7);
 }
 
 footer {
   background-color: #F3E9F1;
+  margin-top: 2%;
 }
 
 #liens {
@@ -121,6 +197,6 @@ footer {
 }
 
 #liens p {
-  font-size: 1.05em;
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=style.css.map */
