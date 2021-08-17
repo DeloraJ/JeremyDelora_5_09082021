@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Orinoco - Panier</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://kit.fontawesome.com/4f7027f93f.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!--Header-->
+		<header>
+			<a href="index.html" class="header_title"><i class="fas fa-shopping-cart"></i>Orinoco</a>
+			<a href="basket.html"> Panier</a>
+		</header>
+
+		<main class="basket">
+			<h1 class="big_title">Votre Panier</h1>
+
+			<!--Basket contents-->
+			<div class="ordered">
+				<h2>Vos articles</h2>
+				<div id="ordered_articles">
+					<!--<div class="ordered_article">
+						<img src="../Backend/images/teddy_1.jpg" alt="Ours en peluche">
+						<div>
+							<div>
+								<h3>Ours en peluche fait main</h3>
+								<p>Couleur<p>
+							</div>
+							<p>20€</p>
+						</div>
+					</div>-->
+				</div>
+
+				<!--Total price-->
+				<p id="total_price"></p>
+			</div>
+
+			<!--Contact information-->
+			<form>
+				<h2>Vos coordonnées</h2>
+				<!--First name-->
+				<label for="firstName">Prénom:</label>
+				<input type="text" id="firstName" name="firstName" required>
+
+				<!--Last name-->
+				<label for="lastName">Nom:</label>
+				<input type="text" id="lastName" name="lastName" required>
+				
+				<!--Email-->
+				<label for="email">Email (Ex : johndoe@votreadresse.com):</label><br>
+				<input type="email" id="email" name="email" required>
+
+				<!--Adress-->
+				<label for="address">Adresse:</label><br>
+				<input type="text" id="address" name="address" required>
+
+				<!--City-->
+				<label for="city">Ville:</label><br>
+				<input type="text" id="city" name="city" required>
+
+				<!--Submit Button-->
+				<input id="order" type="submit" value="Commander" disabled="disabled">
+			</form>
+		</main>
+		<script src="js/basket.js" type="text/javascript"></script>
+	</body>
+
+</html>
