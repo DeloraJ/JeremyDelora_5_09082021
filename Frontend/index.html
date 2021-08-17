@@ -1,8 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>Orinoco - Accueil</title>
+		<link rel="icon" type="image/png" href="../Backend/images/logo/logo.png"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://kit.fontawesome.com/4f7027f93f.js" crossorigin="anonymous"></script>
@@ -11,26 +12,67 @@
 	<body>
 		<!--Header-->
 		<header>
-			<a href="index.html" class="header_title"><i class="fas fa-shopping-cart"></i>Orinoco</a>
-			<a href="basket.html"> Panier</a>
+			<div id="Entete">
+				<div id="Logosite">
+					<img src="../Backend/images/logo/logo.png" alt="Orinoco" class="logo">    
+				</div>
+				<div id="Panier">
+					<a href="../Frontend/basket.html" title="Panier">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+				</div>
+			</div>
 		</header>
+		<section>
+			<div id="Categorie">
+				<h1>Catégorie du produit</h1>
+				<div id="ListeCategorie">
+					<div class="CategorieProduit">
+						<a href="#" title="Meubles en chêne"><p>Meubles en chêne</p></a>
+					</div>
+					<div class="CategorieProduit">
+						<a href="#products" title="Ours en peluche faits à la main"><p>Ours en peluche faits à la main</p></a>
+					</div>
+					<div class="CategorieProduit">
+						<a href="#" title="Caméras vintage"><p>Caméras vintage</p></a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!--The products-->
 		<main>
 			<!--Title-->
-			<h1 class="big_title">Nos articles</h1>
+			<h2 class="big_title">Nos articles</h2>
 			<div id="products">
 				<!--<figure>
 					<img src="../Backend/images/teddy_1.jpg" alt="Ours en peluche">
 					<figcaption>
-						<h2>Ours en peluche fait main</h2>
+						<h3>Ours en peluche fait main</h3>
 						<p>20€</p>
 						<a href="product.html">Voir le produit</a>
 					</figcaption>
 				</figure>-->
 				<!--Javascript text-->
-			</div>
+			</div><script src="js/index.js" type="text/javascript"></script>
 		</main>
-		<script src="js/index.js" type="text/javascript"></script>
+		
+
+		<footer>
+			<div id="liens">
+				<div class="contact">
+					<a href="mailto:contact@orinoco.com"><p>Contact</p></a>
+				</div>
+				<div class="livraison">
+					<a href="#"><p>Livraison & retours</p></a>
+				</div>
+				<div class="Paiement">
+					<a href="#"><p>Paiement sécurisé</p></a>
+				</div>
+				<div class="FAQ">
+					<a href="#"><p>FAQ</p></a>
+				</div>
+			</div>
+		</footer>
 	</body>
 
 </html>
